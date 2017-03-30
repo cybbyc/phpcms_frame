@@ -25,9 +25,7 @@
     	<div>
        <a href="/"><h3 class="f14"><?php echo L('manage_center')?></h3></a>
         <ul>
-          	
 			<li class="menuli" onclick="menu_show(this);"><a hidefocus="true" style="outline:none" href="?m=admin&c=password&a=init" target="right_iframe"><?php echo L('account_setting')?></a></li>
-       
            <li class="menuli" onclick="menu_show(this);"><a hidefocus="true" style="outline:none" href="?m=admin&c=administrator&a=init" target="right_iframe"><?php echo L('admin_manage')?></a></li>
         </ul>
         </div>

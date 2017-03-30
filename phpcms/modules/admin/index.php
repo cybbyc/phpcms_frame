@@ -19,7 +19,6 @@ class index extends admin {
 
 	public function right() {
 		
-		
 		include $this->admin_tpl('right');
 	}
 }

@@ -10,13 +10,13 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2017-03-30 17:22:35
+Date: 2017-03-30 22:25:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for v9_sso_admin
+-- Table structure for `v9_sso_admin`
 -- ----------------------------
 DROP TABLE IF EXISTS `v9_sso_admin`;
 CREATE TABLE `v9_sso_admin` (
@@ -34,10 +34,10 @@ CREATE TABLE `v9_sso_admin` (
 -- ----------------------------
 -- Records of v9_sso_admin
 -- ----------------------------
-INSERT INTO `v9_sso_admin` VALUES ('1', 'phpcms', '477c171399d336deda3ddb707ecc0246', '1Djwdd', '1', '1490863712', '127.0.0.1');
+INSERT INTO `v9_sso_admin` VALUES ('1', 'phpcms', '477c171399d336deda3ddb707ecc0246', '1Djwdd', '1', '1490883714', '');
 
 -- ----------------------------
--- Table structure for v9_sso_session
+-- Table structure for `v9_sso_session`
 -- ----------------------------
 DROP TABLE IF EXISTS `v9_sso_session`;
 CREATE TABLE `v9_sso_session` (
@@ -58,4 +58,4 @@ CREATE TABLE `v9_sso_session` (
 -- ----------------------------
 -- Records of v9_sso_session
 -- ----------------------------
-INSERT INTO `v9_sso_session` VALUES ('jogu22j3slu250ics7qk2c2hv5', '0', 'ip', '1490865537', '0', '0', '', '', 'a', 'code|s:4:\"n4my\";');
+INSERT INTO `v9_sso_session` VALUES ('kpga3ntladh0sngk6epvodtob5', '0', 'ip', '1490883714', '0', '0', 'admin', 'login', 'a', 'code|s:4:\"unyg\";');
